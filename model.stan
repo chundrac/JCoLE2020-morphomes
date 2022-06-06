@@ -70,19 +70,20 @@ transformed parameters {
 }
 model {
   rho ~ uniform(0,10);
-  alpha_s ~ cauchy(0,1);
-  alpha_p ~ cauchy(0,1);
-  beta_s_lemma ~ cauchy(0,1);
-  beta_p_lemma ~ cauchy(0,1);
+  alpha_s ~ normal(0,1);
+  alpha_p ~ normal(0,1);
+  beta_s_lemma ~ normal(0,1);
+  beta_p_lemma ~ normal(0,1);
   simp_s_lemma ~ dirichlet(rep_vector(1,L-1));
   simp_p_lemma ~ dirichlet(rep_vector(1,L-1));
-  beta_s_pattern ~ cauchy(0,1);
-  beta_p_pattern ~ cauchy(0,1);
-  sigma_s ~ cauchy(0,1);
-  sigma_p ~ cauchy(0,1);
+  beta_s_pattern ~ normal(0,1);
+  beta_p_pattern ~ normal(0,1);
+  sigma_s ~ normal(0,1);
+  sigma_p ~ normal(0,1);
   eps_s ~ normal(0,1);
   eps_p ~ normal(0,1);
   for (d in 1:D) {
     target += pruning(N,B,child,parent,brlen,tiplik[,((2*d)-1):(2*d)],p[d]*s[d],(1-p[d])*s[d]);
   }
 }
+
