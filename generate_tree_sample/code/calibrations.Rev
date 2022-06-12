@@ -1,0 +1,360 @@
+Sardinian_age := tmrca(tree, Sardinian)
+obs_Sardinian_age ~ dnUnif(1050, 1350)
+obs_Sardinian_age.clamp(Sardinian_age)
+
+BalkanRomance_age := tmrca(tree, BalkanRomance)
+obs_BalkanRomance_age ~ dnUnif(1350, 1750)
+obs_BalkanRomance_age.clamp(BalkanRomance_age)
+
+ItaloWesternRomance_age := tmrca(tree, ItaloWesternRomance)
+obs_ItaloWesternRomance_age ~ dnUnif(1650, 1800)
+obs_ItaloWesternRomance_age.clamp(ItaloWesternRomance_age)
+
+Romanian_age := tmrca(tree, Romanian)
+obs_Romanian_age ~ dnUnif(1250, 1450)
+obs_Romanian_age.clamp(Romanian_age)
+
+Rhaetic_age := tmrca(tree, Rhaetic)
+obs_Rhaetic_age ~ dnUnif(1150, 1450)
+obs_Rhaetic_age.clamp(Rhaetic_age)
+
+IberoRomance_age := tmrca(tree, IberoRomance)
+obs_IberoRomance_age ~ dnUnif(1250, 1650)
+obs_IberoRomance_age.clamp(IberoRomance_age)
+
+ItalianRomance_age := tmrca(tree, ItalianRomance)
+obs_ItalianRomance_age ~ dnUnif(1250, 1650)
+obs_ItalianRomance_age.clamp(ItalianRomance_age)
+
+GalloRomance_age := tmrca(tree, GalloRomance)
+obs_GalloRomance_age ~ dnUnif(1450, 1550)
+obs_GalloRomance_age.clamp(GalloRomance_age)
+
+Ladin_age := tmrca(tree, Ladin)
+obs_Ladin_age ~ dnUnif(850, 1050)
+obs_Ladin_age.clamp(Ladin_age)
+
+Friulian_age := tmrca(tree, Friulian)
+obs_Friulian_age ~ dnUnif(850, 1050)
+obs_Friulian_age.clamp(Friulian_age)
+
+Swiss_age := tmrca(tree, Swiss)
+obs_Swiss_age ~ dnUnif(850, 1050)
+obs_Swiss_age.clamp(Swiss_age)
+
+Spanish_age := tmrca(tree, Spanish)
+obs_Spanish_age ~ dnUnif(950, 1050)
+obs_Spanish_age.clamp(Spanish_age)
+
+WesternIberoRomance_age := tmrca(tree, WesternIberoRomance)
+obs_WesternIberoRomance_age ~ dnUnif(1050, 1250)
+obs_WesternIberoRomance_age.clamp(WesternIberoRomance_age)
+
+Catalan_age := tmrca(tree, Catalan)
+obs_Catalan_age ~ dnUnif(950, 1050)
+obs_Catalan_age.clamp(Catalan_age)
+
+Languedoc_age := tmrca(tree, Languedoc)
+obs_Languedoc_age ~ dnUnif(1450, 1450)
+obs_Languedoc_age.clamp(Languedoc_age)
+
+FrancoProvencal_age := tmrca(tree, FrancoProvencal)
+obs_FrancoProvencal_age ~ dnUnif(1050, 1250)
+obs_FrancoProvencal_age.clamp(FrancoProvencal_age)
+
+Occitan_age := tmrca(tree, Occitan)
+obs_Occitan_age ~ dnUnif(1050, 1250)
+obs_Occitan_age.clamp(Occitan_age)
+
+#Sardinian_Campidanese_age := tmrca(tree, clade("Sardinian_Campidanese"))
+#obs_Sardinian_Campidanese_age ~ dnUnif(300, 800)
+#obs_Sardinian_Campidanese_age.clamp(Sardinian_Campidanese_age)
+
+#Sardinian_Gallurese_age := tmrca(tree, clade("Sardinian_Gallurese"))
+#obs_Sardinian_Gallurese_age ~ dnUnif(300, 800)
+#obs_Sardinian_Gallurese_age.clamp(Sardinian_Gallurese_age)
+
+#Sardinian_Logudorese_age := tmrca(tree, clade("Sardinian_Logudorese"))
+#obs_Sardinian_Logudorese_age ~ dnUnif(300, 800)
+#obs_Sardinian_Logudorese_age.clamp(Sardinian_Logudorese_age)
+
+#Sardinian_Nuorese_age := tmrca(tree, clade("Sardinian_Nuorese"))
+#obs_Sardinian_Nuorese_age ~ dnUnif(300, 800)
+#obs_Sardinian_Nuorese_age.clamp(Sardinian_Nuorese_age)
+
+#Sardinian_Sassarese_age := tmrca(tree, clade("Sardinian_Sassarese"))
+#obs_Sardinian_Sassarese_age ~ dnUnif(300, 800)
+#obs_Sardinian_Sassarese_age.clamp(Sardinian_Sassarese_age)
+
+#Dalmatian_Vegliote_from_Veglia_Krk_age := tmrca(tree, clade("Dalmatian_Vegliote_from_Veglia_Krk"))
+#obs_Dalmatian_Vegliote_from_Veglia_Krk_age ~ dnUnif(300, 800)
+#obs_Dalmatian_Vegliote_from_Veglia_Krk_age.clamp(Dalmatian_Vegliote_from_Veglia_Krk_age)
+
+#Romanian_Aromanian_age := tmrca(tree, clade("Romanian_Aromanian"))
+#obs_Romanian_Aromanian_age ~ dnUnif(300, 800)
+#obs_Romanian_Aromanian_age.clamp(Romanian_Aromanian_age)
+
+#Romanian_IstroRomanian_from_Susnjevica_Valdarsa_age := tmrca(tree, clade("Romanian_Istro-Romanian_from_Susnjevica_Valdarsa"))
+#obs_Romanian_IstroRomanian_from_Susnjevica_Valdarsa_age ~ dnUnif(300, 800)
+#obs_Romanian_IstroRomanian_from_Susnjevica_Valdarsa_age.clamp(Romanian_IstroRomanian_from_Susnjevica_Valdarsa_age)
+
+#Romanian_MeglenoRomanian_age := tmrca(tree, clade("Romanian_Megleno-Romanian"))
+#obs_Romanian_MeglenoRomanian_age ~ dnUnif(300, 800)
+#obs_Romanian_MeglenoRomanian_age.clamp(Romanian_MeglenoRomanian_age)
+
+#Romanian_Modern_Standard_age := tmrca(tree, clade("Romanian_Modern_Standard"))
+#obs_Romanian_Modern_Standard_age ~ dnUnif(300, 800)
+#obs_Romanian_Modern_Standard_age.clamp(Romanian_Modern_Standard_age)
+
+#Ladin_Dolomitic_Atesino_Val_Badia_age := tmrca(tree, clade("Ladin-_Dolomitic_Atesino_Val_Badia"))
+#obs_Ladin_Dolomitic_Atesino_Val_Badia_age ~ dnUnif(300, 800)
+#obs_Ladin_Dolomitic_Atesino_Val_Badia_age.clamp(Ladin_Dolomitic_Atesino_Val_Badia_age)
+
+#Ladin_Dolomitic_Atesino_Val_Gardena_age := tmrca(tree, clade("Ladin-_Dolomitic_Atesino_Val_Gardena"))
+#obs_Ladin_Dolomitic_Atesino_Val_Gardena_age ~ dnUnif(300, 800)
+#obs_Ladin_Dolomitic_Atesino_Val_Gardena_age.clamp(Ladin_Dolomitic_Atesino_Val_Gardena_age)
+
+#Friulian_age := tmrca(tree, clade("Friulian"))
+#obs_Friulian_age ~ dnUnif(300, 800)
+#obs_Friulian_age.clamp(Friulian_age)
+
+#Friulian_Western_Maniago_from_Greci_age := tmrca(tree, clade("Friulian_Western_Maniago_from_Greci"))
+#obs_Friulian_Western_Maniago_from_Greci_age ~ dnUnif(300, 800)
+#obs_Friulian_Western_Maniago_from_Greci_age.clamp(Friulian_Western_Maniago_from_Greci_age)
+
+#Swiss_RaetoRomance_Puter_Upper_Engadine_age := tmrca(tree, clade("Swiss_Raeto-Romance_Puter_Upper_Engadine"))
+#obs_Swiss_RaetoRomance_Puter_Upper_Engadine_age ~ dnUnif(300, 800)
+#obs_Swiss_RaetoRomance_Puter_Upper_Engadine_age.clamp(Swiss_RaetoRomance_Puter_Upper_Engadine_age)
+
+#Swiss_RaetoRomance_Surmiran_from_BivioStalla_age := tmrca(tree, clade("Swiss_Raeto-Romance_Surmiran_from_Bivio-Stalla"))
+#obs_Swiss_RaetoRomance_Surmiran_from_BivioStalla_age ~ dnUnif(300, 800)
+#obs_Swiss_RaetoRomance_Surmiran_from_BivioStalla_age.clamp(Swiss_RaetoRomance_Surmiran_from_BivioStalla_age)
+
+#Swiss_RaetoRomance_Surselvan_age := tmrca(tree, clade("Swiss_Raeto-Romance_Surselvan"))
+#obs_Swiss_RaetoRomance_Surselvan_age ~ dnUnif(300, 800)
+#obs_Swiss_RaetoRomance_Surselvan_age.clamp(Swiss_RaetoRomance_Surselvan_age)
+
+#Spanish_Aragonese_Ansotano_from_Anso_Fago_age := tmrca(tree, clade("Spanish_Aragonese_Ansotano_from_Anso_Fago"))
+#obs_Spanish_Aragonese_Ansotano_from_Anso_Fago_age ~ dnUnif(300, 800)
+#obs_Spanish_Aragonese_Ansotano_from_Anso_Fago_age.clamp(Spanish_Aragonese_Ansotano_from_Anso_Fago_age)
+
+#Spanish_Aragonese_from_Panticosa_age := tmrca(tree, clade("Spanish_Aragonese_from_Panticosa"))
+#obs_Spanish_Aragonese_from_Panticosa_age ~ dnUnif(300, 800)
+#obs_Spanish_Aragonese_from_Panticosa_age.clamp(Spanish_Aragonese_from_Panticosa_age)
+
+#Spanish_AsturoLeonese_Asturian_from_Somiedo_age := tmrca(tree, clade("Spanish_Asturo-Leonese_Asturian_from_Somiedo"))
+#obs_Spanish_AsturoLeonese_Asturian_from_Somiedo_age ~ dnUnif(300, 800)
+#obs_Spanish_AsturoLeonese_Asturian_from_Somiedo_age.clamp(Spanish_AsturoLeonese_Asturian_from_Somiedo_age)
+
+#Spanish_AsturoLeonese_Asturian_Sudeste_de_from_Parres_age := tmrca(tree, clade("Spanish_Asturo-Leonese_Asturian_Sudeste_de_from_Parres"))
+#obs_Spanish_AsturoLeonese_Asturian_Sudeste_de_from_Parres_age ~ dnUnif(300, 800)
+#obs_Spanish_AsturoLeonese_Asturian_Sudeste_de_from_Parres_age.clamp(Spanish_AsturoLeonese_Asturian_Sudeste_de_from_Parres_age)
+
+#Spanish_Modern_Standard_age := tmrca(tree, clade("Spanish_Modern_Standard"))
+#obs_Spanish_Modern_Standard_age ~ dnUnif(300, 800)
+#obs_Spanish_Modern_Standard_age.clamp(Spanish_Modern_Standard_age)
+
+#GalegoPortuguese_Galician_from_Cualedro_age := tmrca(tree, clade("Galego-Portuguese_Galician_from_Cualedro"))
+#obs_GalegoPortuguese_Galician_from_Cualedro_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Galician_from_Cualedro_age.clamp(GalegoPortuguese_Galician_from_Cualedro_age)
+
+#GalegoPortuguese_Galician_from_Dodro_age := tmrca(tree, clade("Galego-Portuguese_Galician_from_Dodro"))
+#obs_GalegoPortuguese_Galician_from_Dodro_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Galician_from_Dodro_age.clamp(GalegoPortuguese_Galician_from_Dodro_age)
+
+#GalegoPortuguese_Galician_from_Fisterra_Finisterra_age := tmrca(tree, clade("Galego-Portuguese_Galician_from_Fisterra_Finisterra"))
+#obs_GalegoPortuguese_Galician_from_Fisterra_Finisterra_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Galician_from_Fisterra_Finisterra_age.clamp(GalegoPortuguese_Galician_from_Fisterra_Finisterra_age)
+
+#GalegoPortuguese_Galician_from_Lubian_age := tmrca(tree, clade("Galego-Portuguese_Galician_from_Lubian"))
+#obs_GalegoPortuguese_Galician_from_Lubian_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Galician_from_Lubian_age.clamp(GalegoPortuguese_Galician_from_Lubian_age)
+
+#GalegoPortuguese_Galician_from_Vilanova_de_Oscos_age := tmrca(tree, clade("Galego-Portuguese_Galician_from_Vilanova_de_Oscos"))
+#obs_GalegoPortuguese_Galician_from_Vilanova_de_Oscos_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Galician_from_Vilanova_de_Oscos_age.clamp(GalegoPortuguese_Galician_from_Vilanova_de_Oscos_age)
+
+#GalegoPortuguese_Galician_from_Xermade_age := tmrca(tree, clade("Galego-Portuguese_Galician_from_Xermade"))
+#obs_GalegoPortuguese_Galician_from_Xermade_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Galician_from_Xermade_age.clamp(GalegoPortuguese_Galician_from_Xermade_age)
+
+#GalegoPortuguese_Portuguese_age := tmrca(tree, clade("Galego-Portuguese_Portuguese"))
+#obs_GalegoPortuguese_Portuguese_age ~ dnUnif(300, 800)
+#obs_GalegoPortuguese_Portuguese_age.clamp(GalegoPortuguese_Portuguese_age)
+
+#Italian_Central_Laziale_Northcentral_from_Ascrea_age := tmrca(tree, clade("Italian_Central_Laziale_North-central_from_Ascrea"))
+#obs_Italian_Central_Laziale_Northcentral_from_Ascrea_age ~ dnUnif(300, 800)
+#obs_Italian_Central_Laziale_Northcentral_from_Ascrea_age.clamp(Italian_Central_Laziale_Northcentral_from_Ascrea_age)
+
+#Italian_Central_Marchigiano_from_Macerata_age := tmrca(tree, clade("Italian_Central_Marchigiano_from_Macerata"))
+#obs_Italian_Central_Marchigiano_from_Macerata_age ~ dnUnif(300, 800)
+#obs_Italian_Central_Marchigiano_from_Macerata_age.clamp(Italian_Central_Marchigiano_from_Macerata_age)
+
+#Italian_Central_Marchigiano_from_Servigliano_age := tmrca(tree, clade("Italian_Central_Marchigiano_from_Servigliano"))
+#obs_Italian_Central_Marchigiano_from_Servigliano_age ~ dnUnif(300, 800)
+#obs_Italian_Central_Marchigiano_from_Servigliano_age.clamp(Italian_Central_Marchigiano_from_Servigliano_age)
+
+#Italian_Central_Modern_Standard_age := tmrca(tree, clade("Italian_Central_Modern_Standard"))
+#obs_Italian_Central_Modern_Standard_age ~ dnUnif(300, 800)
+#obs_Italian_Central_Modern_Standard_age.clamp(Italian_Central_Modern_Standard_age)
+
+#Italian_Central_Tuscan_Corsican_from_Sisco_age := tmrca(tree, clade("Italian_Central_Tuscan_Corsican_from_Sisco"))
+#obs_Italian_Central_Tuscan_Corsican_from_Sisco_age ~ dnUnif(300, 800)
+#obs_Italian_Central_Tuscan_Corsican_from_Sisco_age.clamp(Italian_Central_Tuscan_Corsican_from_Sisco_age)
+
+#Italian_Northern_I_Emilian_from_Travo_age := tmrca(tree, clade("Italian_Northern_I_Emilian_from_Travo"))
+#obs_Italian_Northern_I_Emilian_from_Travo_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Emilian_from_Travo_age.clamp(Italian_Northern_I_Emilian_from_Travo_age)
+
+#Italian_Northern_I_Emilian_Romagnol_from_Lugo_age := tmrca(tree, clade("Italian_Northern_I_Emilian_Romagnol_from_Lugo"))
+#obs_Italian_Northern_I_Emilian_Romagnol_from_Lugo_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Emilian_Romagnol_from_Lugo_age.clamp(Italian_Northern_I_Emilian_Romagnol_from_Lugo_age)
+
+#Italian_Northern_I_Ligurian_Genoese_from_Genova_age := tmrca(tree, clade("Italian_Northern_I_Ligurian_Genoese_from_Genova"))
+#obs_Italian_Northern_I_Ligurian_Genoese_from_Genova_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Ligurian_Genoese_from_Genova_age.clamp(Italian_Northern_I_Ligurian_Genoese_from_Genova_age)
+
+#Italian_Northern_I_Lombard_Alpine_from_Val_Calanca_age := tmrca(tree, clade("Italian_Northern_I_Lombard_Alpine_from_Val_Calanca"))
+#obs_Italian_Northern_I_Lombard_Alpine_from_Val_Calanca_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Lombard_Alpine_from_Val_Calanca_age.clamp(Italian_Northern_I_Lombard_Alpine_from_Val_Calanca_age)
+
+#Italian_Northern_I_Lombard_Cremonese_from_Cremona_age := tmrca(tree, clade("Italian_Northern_I_Lombard_Cremonese_from_Cremona"))
+#obs_Italian_Northern_I_Lombard_Cremonese_from_Cremona_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Lombard_Cremonese_from_Cremona_age.clamp(Italian_Northern_I_Lombard_Cremonese_from_Cremona_age)
+
+#Italian_Northern_I_Piedmontese_Basso_from_Cascinagrossa_age := tmrca(tree, clade("Italian_Northern_I_Piedmontese_Basso_from_Cascinagrossa"))
+#obs_Italian_Northern_I_Piedmontese_Basso_from_Cascinagrossa_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Piedmontese_Basso_from_Cascinagrossa_age.clamp(Italian_Northern_I_Piedmontese_Basso_from_Cascinagrossa_age)
+
+#Italian_Northern_I_Piedmontese_from_Cairo_Montenotte_age := tmrca(tree, clade("Italian_Northern_I_Piedmontese_from_Cairo_Montenotte"))
+#obs_Italian_Northern_I_Piedmontese_from_Cairo_Montenotte_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_I_Piedmontese_from_Cairo_Montenotte_age.clamp(Italian_Northern_I_Piedmontese_from_Cairo_Montenotte_age)
+
+#Italian_Northern_II_Veneto_Istrioto_Valle_dIstria_from_Valle_dIstria_age := tmrca(tree, clade("Italian_Northern_II_Veneto_Istrioto_Valle_dIstria_from_Valle_dIstria"))
+#obs_Italian_Northern_II_Veneto_Istrioto_Valle_dIstria_from_Valle_dIstria_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_II_Veneto_Istrioto_Valle_dIstria_from_Valle_dIstria_age.clamp(Italian_Northern_II_Veneto_Istrioto_Valle_dIstria_from_Valle_dIstria_age)
+
+#Italian_Northern_II_Veneto_Northern_from_Alpago_age := tmrca(tree, clade("Italian_Northern_II_Veneto_Northern_from_Alpago"))
+#obs_Italian_Northern_II_Veneto_Northern_from_Alpago_age ~ dnUnif(300, 800)
+#obs_Italian_Northern_II_Veneto_Northern_from_Alpago_age.clamp(Italian_Northern_II_Veneto_Northern_from_Alpago_age)
+
+#Italian_Southern_I_Lucano_Archaic_from_Nova_Siri_age := tmrca(tree, clade("Italian_Southern_I_Lucano_Archaic_from_Nova_Siri"))
+#obs_Italian_Southern_I_Lucano_Archaic_from_Nova_Siri_age ~ dnUnif(300, 800)
+#obs_Italian_Southern_I_Lucano_Archaic_from_Nova_Siri_age.clamp(Italian_Southern_I_Lucano_Archaic_from_Nova_Siri_age)
+
+#Italian_Southern_I_Lucano_Calabria_from_Papasidero_age := tmrca(tree, clade("Italian_Southern_I_Lucano_Calabria_from_Papasidero"))
+#obs_Italian_Southern_I_Lucano_Calabria_from_Papasidero_age ~ dnUnif(300, 800)
+#obs_Italian_Southern_I_Lucano_Calabria_from_Papasidero_age.clamp(Italian_Southern_I_Lucano_Calabria_from_Papasidero_age)
+
+#Italian_Southern_I_Lucano_Central_from_Calvello_age := tmrca(tree, clade("Italian_Southern_I_Lucano_Central_from_Calvello"))
+#obs_Italian_Southern_I_Lucano_Central_from_Calvello_age ~ dnUnif(300, 800)
+#obs_Italian_Southern_I_Lucano_Central_from_Calvello_age.clamp(Italian_Southern_I_Lucano_Central_from_Calvello_age)
+
+#Italian_Southern_I_Molisano_from_Casacalenda_age := tmrca(tree, clade("Italian_Southern_I_Molisano_from_Casacalenda"))
+#obs_Italian_Southern_I_Molisano_from_Casacalenda_age ~ dnUnif(300, 800)
+#obs_Italian_Southern_I_Molisano_from_Casacalenda_age.clamp(Italian_Southern_I_Molisano_from_Casacalenda_age)
+
+#Italian_Southern_I_Pugliese_Dauno_from_Lucera_age := tmrca(tree, clade("Italian_Southern_I_Pugliese_Dauno_from_Lucera"))
+#obs_Italian_Southern_I_Pugliese_Dauno_from_Lucera_age ~ dnUnif(300, 800)
+#obs_Italian_Southern_I_Pugliese_Dauno_from_Lucera_age.clamp(Italian_Southern_I_Pugliese_Dauno_from_Lucera_age)
+
+#Italian_Southern_II_Sicilian_Central_from_Mussomeli_age := tmrca(tree, clade("Italian_Southern_II_Sicilian_Central_from_Mussomeli"))
+#obs_Italian_Southern_II_Sicilian_Central_from_Mussomeli_age ~ dnUnif(300, 800)
+#obs_Italian_Southern_II_Sicilian_Central_from_Mussomeli_age.clamp(Italian_Southern_II_Sicilian_Central_from_Mussomeli_age)
+
+#Catalan_Eastern_Algueres_from_LAlgher_Alghero_age := tmrca(tree, clade("Catalan_Eastern_Algueres_from_LAlgher_Alghero"))
+#obs_Catalan_Eastern_Algueres_from_LAlgher_Alghero_age ~ dnUnif(300, 800)
+#obs_Catalan_Eastern_Algueres_from_LAlgher_Alghero_age.clamp(Catalan_Eastern_Algueres_from_LAlgher_Alghero_age)
+
+#Catalan_Eastern_Balear_Mallorqui_from_Palma_age := tmrca(tree, clade("Catalan_Eastern_Balear_Mallorqui_from_Palma"))
+#obs_Catalan_Eastern_Balear_Mallorqui_from_Palma_age ~ dnUnif(300, 800)
+#obs_Catalan_Eastern_Balear_Mallorqui_from_Palma_age.clamp(Catalan_Eastern_Balear_Mallorqui_from_Palma_age)
+
+#Catalan_Eastern_Central_Barceloni_from_Barcelona_age := tmrca(tree, clade("Catalan_Eastern_Central_Barceloni_from_Barcelona"))
+#obs_Catalan_Eastern_Central_Barceloni_from_Barcelona_age ~ dnUnif(300, 800)
+#obs_Catalan_Eastern_Central_Barceloni_from_Barcelona_age.clamp(Catalan_Eastern_Central_Barceloni_from_Barcelona_age)
+
+#Catalan_Eastern_Rossellones_from_Canet_de_Rossello_CanetenRoussillon_age := tmrca(tree, clade("Catalan_Eastern_Rossellones_from_Canet_de_Rossello_Canet-en-Roussillon"))
+#obs_Catalan_Eastern_Rossellones_from_Canet_de_Rossello_CanetenRoussillon_age ~ dnUnif(300, 800)
+#obs_Catalan_Eastern_Rossellones_from_Canet_de_Rossello_CanetenRoussillon_age.clamp(Catalan_Eastern_Rossellones_from_Canet_de_Rossello_CanetenRoussillon_age)
+
+#Catalan_Western_from_Lleida_age := tmrca(tree, clade("Catalan_Western_from_Lleida"))
+#obs_Catalan_Western_from_Lleida_age ~ dnUnif(300, 800)
+#obs_Catalan_Western_from_Lleida_age.clamp(Catalan_Western_from_Lleida_age)
+
+#Catalan_Western_from_Valencia_age := tmrca(tree, clade("Catalan_Western_from_Valencia"))
+#obs_Catalan_Western_from_Valencia_age ~ dnUnif(300, 800)
+#obs_Catalan_Western_from_Valencia_age.clamp(Catalan_Western_from_Valencia_age)
+
+#Francoprovencal_Lyonnais_from_Vaux_age := tmrca(tree, clade("Francoprovencal_Lyonnais_from_Vaux"))
+#obs_Francoprovencal_Lyonnais_from_Vaux_age ~ dnUnif(300, 800)
+#obs_Francoprovencal_Lyonnais_from_Vaux_age.clamp(Francoprovencal_Lyonnais_from_Vaux_age)
+
+#Francoprovencal_Valaisan_Val_dIlliez_from_Val_dIlliez_age := tmrca(tree, clade("Francoprovencal_Valaisan_Val_dIlliez_from_Val_dIlliez"))
+#obs_Francoprovencal_Valaisan_Val_dIlliez_from_Val_dIlliez_age ~ dnUnif(300, 800)
+#obs_Francoprovencal_Valaisan_Val_dIlliez_from_Val_dIlliez_age.clamp(Francoprovencal_Valaisan_Val_dIlliez_from_Val_dIlliez_age)
+
+#Occitan_Northern_Auvergnat_Gartempe_from_Gartempe_Creuse__age := tmrca(tree, clade("Occitan_Northern_Auvergnat_Gartempe_from_Gartempe_Creuse_"))
+#obs_Occitan_Northern_Auvergnat_Gartempe_from_Gartempe_Creuse__age ~ dnUnif(300, 800)
+#obs_Occitan_Northern_Auvergnat_Gartempe_from_Gartempe_Creuse__age.clamp(Occitan_Northern_Auvergnat_Gartempe_from_Gartempe_Creuse__age)
+
+#Occitan_Northern_Limousin_from_SaintAugustin_age := tmrca(tree, clade("Occitan_Northern_Limousin_from_Saint-Augustin"))
+#obs_Occitan_Northern_Limousin_from_SaintAugustin_age ~ dnUnif(300, 800)
+#obs_Occitan_Northern_Limousin_from_SaintAugustin_age.clamp(Occitan_Northern_Limousin_from_SaintAugustin_age)
+
+#Occitan_Northern_VivaroAlpin_from_Seyne_age := tmrca(tree, clade("Occitan_Northern_Vivaro-Alpin_from_Seyne"))
+#obs_Occitan_Northern_VivaroAlpin_from_Seyne_age ~ dnUnif(300, 800)
+#obs_Occitan_Northern_VivaroAlpin_from_Seyne_age.clamp(Occitan_Northern_VivaroAlpin_from_Seyne_age)
+
+#Occitan_Southern_Languedocien_from_Graulhet_age := tmrca(tree, clade("Occitan_Southern_Languedocien_from_Graulhet"))
+#obs_Occitan_Southern_Languedocien_from_Graulhet_age ~ dnUnif(300, 800)
+#obs_Occitan_Southern_Languedocien_from_Graulhet_age.clamp(Occitan_Southern_Languedocien_from_Graulhet_age)
+
+#Occitan_Southern_Provencal_from_Nice_age := tmrca(tree, clade("Occitan_Southern_Provencal_from_Nice"))
+#obs_Occitan_Southern_Provencal_from_Nice_age ~ dnUnif(300, 800)
+#obs_Occitan_Southern_Provencal_from_Nice_age.clamp(Occitan_Southern_Provencal_from_Nice_age)
+
+#French_Acadian_from_Baie_SainteMarie_age := tmrca(tree, clade("French_Acadian_from_Baie_Sainte-Marie"))
+#obs_French_Acadian_from_Baie_SainteMarie_age ~ dnUnif(300, 800)
+#obs_French_Acadian_from_Baie_SainteMarie_age.clamp(French_Acadian_from_Baie_SainteMarie_age)
+
+#French_Acadian_from_Pubnico_age := tmrca(tree, clade("French_Acadian_from_Pubnico"))
+#obs_French_Acadian_from_Pubnico_age ~ dnUnif(300, 800)
+#obs_French_Acadian_from_Pubnico_age.clamp(French_Acadian_from_Pubnico_age)
+
+#French_Acadian_SouthEast_New_Brunswick_from_Moncton__environs_age := tmrca(tree, clade("French_Acadian_South-East_New_Brunswick_from_Moncton__environs"))
+#obs_French_Acadian_SouthEast_New_Brunswick_from_Moncton__environs_age ~ dnUnif(300, 800)
+#obs_French_Acadian_SouthEast_New_Brunswick_from_Moncton__environs_age.clamp(French_Acadian_SouthEast_New_Brunswick_from_Moncton__environs_age)
+
+#French_FrancComtois_from_Pierrecourt_age := tmrca(tree, clade("French_Franc-Comtois_from_Pierrecourt"))
+#obs_French_FrancComtois_from_Pierrecourt_age ~ dnUnif(300, 800)
+#obs_French_FrancComtois_from_Pierrecourt_age.clamp(French_FrancComtois_from_Pierrecourt_age)
+
+#French_Lorrain_from_Ranrupt_age := tmrca(tree, clade("French_Lorrain_from_Ranrupt"))
+#obs_French_Lorrain_from_Ranrupt_age ~ dnUnif(300, 800)
+#obs_French_Lorrain_from_Ranrupt_age.clamp(French_Lorrain_from_Ranrupt_age)
+
+#French_Modern_Standard_age := tmrca(tree, clade("French_Modern_Standard"))
+#obs_French_Modern_Standard_age ~ dnUnif(300, 800)
+#obs_French_Modern_Standard_age.clamp(French_Modern_Standard_age)
+
+#French_Norman_from_Jersey_age := tmrca(tree, clade("French_Norman_from_Jersey"))
+#obs_French_Norman_from_Jersey_age ~ dnUnif(300, 800)
+#obs_French_Norman_from_Jersey_age.clamp(French_Norman_from_Jersey_age)
+
+#French_Norman_Guernsey_age := tmrca(tree, clade("French_Norman_Guernsey"))
+#obs_French_Norman_Guernsey_age ~ dnUnif(300, 800)
+#obs_French_Norman_Guernsey_age.clamp(French_Norman_Guernsey_age)
+
+#French_Picard_from_MesnilMartinsart_age := tmrca(tree, clade("French_Picard_from_Mesnil-Martinsart"))
+#obs_French_Picard_from_MesnilMartinsart_age ~ dnUnif(300, 800)
+#obs_French_Picard_from_MesnilMartinsart_age.clamp(French_Picard_from_MesnilMartinsart_age)
+
+#French_PoitevinSaintongeais_Vendeen_from_BeauvoirsurMer_age := tmrca(tree, clade("French_Poitevin-Saintongeais_Vendeen_from_Beauvoir-sur-Mer"))
+#obs_French_PoitevinSaintongeais_Vendeen_from_BeauvoirsurMer_age ~ dnUnif(300, 800)
+#obs_French_PoitevinSaintongeais_Vendeen_from_BeauvoirsurMer_age.clamp(French_PoitevinSaintongeais_Vendeen_from_BeauvoirsurMer_age)
+
+#French_Wallon_from_Namur_age := tmrca(tree, clade("French_Wallon_from_Namur"))
+#obs_French_Wallon_from_Namur_age ~ dnUnif(300, 800)
+#obs_French_Wallon_from_Namur_age.clamp(French_Wallon_from_Namur_age)
+
